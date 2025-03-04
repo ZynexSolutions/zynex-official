@@ -16,7 +16,7 @@ import React from "react";
  * @returns {JSX.Element} The Cta1 component.
  */
 const Cta1 = ({
-  title = "At TechXen IT Solutions, We are Committed To Businesses",
+  title = "Transform Your Business With Our Expertise",
   description = "Take the first step towards achieving your business goals by contacting us today. Schedule a consultation with one of our IT specialists to discuss your objectives and explore how our innovative solutions can propel.",
   consultationLink = "/service",
   solutionLink = "/service",
