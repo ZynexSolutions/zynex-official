@@ -3,6 +3,7 @@ import Cta1 from '@/app/Components/Cta/Cta1';
 import MarqueeText from '@/app/Components/MarqueeText/MarqueeText';
 import Vision1 from '@/app/Components/Mission/Vission1';
 import Service6 from '@/app/Components/Services/Service6';
+import BlogCustom from '@/app/Components/Blog/BlogCustom';
 import React from 'react';
 
 const page = () => {
@@ -12,22 +13,23 @@ const page = () => {
             <MarqueeText></MarqueeText>
             {/* <Service6></Service6> */}
             <Vision1
-                visionImage1= "/assets/img/about/visiton-img1.png"
-                visionImage2 = "/assets/img/about/visiton-img2.png"
-                visionImage3 = "/assets/img/about/visiton-img3.png"
-                spanImage = "/assets/img/icons/span1.png"
-                visionTitle = "Driving Innovation: Our Vision at TechXen"
-                visionDescription = "At TechXen, our vision is to be the leading force driving digital transformation and innovation worldwide. We envision a future where businesses of all sizes have the tools and expertise they need to thrive in an increasingly digital world."
-                icon1 = "/assets/img/icons/about-solution-iocn1.png"
-                title1 = "Network Infrastructure Solutions"
-                description1 = "Build a reliable and secure network infrastructure that <br/> supports your business operations enables seamless"
-                icon2 = "/assets/img/icons/about-solution-iocn2.png"
-                title2 = "Managed It Services"
-                description2 = "Focus on your core business activities while we take <br/> care of your IT needs with our managed IT services."
-                quoteLink = "/contact"
-                spanText = "Case Study 1"
+                visionImage1="/assets/img/custom/case-study-11.png"
+                visionImage2="/assets/img/custom/case-study-12.png"
+                visionImage3="/assets/img/custom/case-study-13.png"
+                spanImage="/assets/img/icons/span1.png"
+                visionTitle="A Modern Online Storefront for Lepaa Products"
+                visionDescription="We've created a minimalistic and modern online storefront for lepaa products. The website's design is made to bring out the aesthetics of the Natural and Herbal products that lepaa offers."
+                icon1="/assets/img/icons/about-solution-iocn1.png"
+                title1="Modern and Reliable Tech Stack"
+                description1="The website is built with modern technologies like<br/> Next Js and Tailwind Css, allowing for serving from <br/>the edge, pushing the site's performance to the max."
+                icon2="/assets/img/icons/about-solution-iocn2.png"
+                title2="Integrated Secure Payment Gateway"
+                description2="Along with all the modern features, the website is <br/>integrated with a secure payment gateway, allowing <br/>for secure transactions."
+                quoteLink="/contact"
+                spanText="Case Study 1"
             />
-            <Cta1></Cta1>            
+            <BlogCustom></BlogCustom>
+            <Cta1></Cta1>
         </div>
     );
 };
