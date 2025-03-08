@@ -18,7 +18,7 @@ export const blogData = [
     date: "May,27,2024",
     title: "Developed a Intelligent Horoscope AI with Agentic AI",
     content:
-      "We've create a high convertion landing page for Silver Castle Manpower, which helped them get more leads and increase their sales by...",
+      "We've developed Agentic AI powered horoscopre AI chatbot. Our intelligent solution delivers consistent results and we've used ...",
     link: "/blog/blog-details",
   },
   {
@@ -36,9 +36,9 @@ export const blogData = [
     imgSrc: "/assets/img/blog/blog6-img2.png",
     tag: "The IT Corner",
     date: "May,27,2024",
-    title: "A Lead Generation Campaign for Silver Castle Manpower with high ROAS",
+    title: "Secured 300 Leads in Under 2 Weeks for Silver Castle Unified Pvt. Ltd.",
     content:
-      "We've helped Silver Castle Manpower generate leads with high Retun on Ad Spend. we were able to get 300 leads in just 2 weeks...",
+      "Each lead costed only 5 Rs. We've helped Silver Castle Unified generate leads with high Retun on Ad Spend, achieving this milestone...",
     link: "/blog/blog-details",
   },
   {
@@ -48,7 +48,7 @@ export const blogData = [
     title:
       "Empowering Strategy Trader with a Personalized Course Selling Platform",
     content:
-      "Whether you are seeking expert advice on cybersecurity, cloud computing, data analytics,",
+      "We've Partnered with Strategy Trader to build a robust, user-friendly course selling platform tailored to their unique trading expertise...",
     link: "/blog/blog-details",
   }
 ];
