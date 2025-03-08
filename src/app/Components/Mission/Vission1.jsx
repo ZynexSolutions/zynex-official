@@ -18,11 +18,12 @@ import Link from "next/link";
  * @param {string} description2 - A description of the second solution, supports HTML.
  * @param {string} quoteLink - URL for the "Get a Quote" button.
  * @param {string} spanText - Text displayed in the span above the vision title.
+ * @param {boolean} contentLeft - If true, the image appears on the right and the content on the left.
  *
  * @returns {JSX.Element} - A React component displaying the company's vision.
  */
 const Vision1 = ({
-  visionImage1= "/assets/img/about/visiton-img1.png",
+  visionImage1 = "/assets/img/about/visiton-img1.png",
   visionImage2 = "/assets/img/about/visiton-img2.png",
   visionImage3 = "/assets/img/about/visiton-img3.png",
   spanImage = "/assets/img/icons/span1.png",
@@ -36,86 +37,169 @@ const Vision1 = ({
   description2 = "Focus on your core business activities while we take <br/> care of your IT needs with our managed IT services.",
   quoteLink = "/contact",
   spanText = "Our Vision",
+  contentLeft = false,
 }) => {
   return (
     <div className="solution about-solution sp">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="images">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="image">
-                    <Image src={visionImage1} alt="img" width={636} height={357} />
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="space30"></div>
-                  <div className="image">
-                    <Image src={visionImage2} alt="img" width={306} height={283} />
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="space30"></div>
-                  <div className="image">
-                    <Image src={visionImage3} alt="img" width={306} height={283} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="heading1">
-              <span className="span">
-                <Image src={spanImage} alt="img" width={18} height={16} />
-                {spanText}
-              </span>
-              <h2>{visionTitle}</h2>
-              <div className="space16"></div>
-              <p>{visionDescription}</p>
-
-              <div className="item-box">
-                <div className="icon">
-                  <div className="">
-                    <Image src={icon1} alt="img" width={28} height={28} />
-                  </div>
-                </div>
-                <div className="">
-                  <h3>
-                    <a href="#">{title1}</a>
-                  </h3>
-                  <div className="space10"></div>
-                  <p dangerouslySetInnerHTML={{ __html: description1 }}></p>
-                </div>
-              </div>
-
-              <div className="item-box">
-                <div className="icon">
-                  <div className="">
-                    <Image src={icon2} alt="img" width={28} height={28} />
-                  </div>
-                </div>
-                <div className="">
-                  <h3>
-                    <a href="#">{title2}</a>
-                  </h3>
-                  <div className="space10"></div>
-                  <p dangerouslySetInnerHTML={{ __html: description2 }}></p>
-                </div>
-              </div>
-
-              <div className="space30"></div>
-              <div className="">
-                <Link className="theme-btn1" href={quoteLink}>
-                  Get A Quote <span>
-                    <i className="bi bi-arrow-right"></i>
+          {contentLeft ? (
+            <>
+              <div className="col-lg-6">
+                <div className="heading1">
+                  <span className="span">
+                    <Image src={spanImage} alt="img" width={18} height={16} />
+                    {spanText}
                   </span>
-                </Link>
+                  <h2>{visionTitle}</h2>
+                  <div className="space16"></div>
+                  <p>{visionDescription}</p>
+
+                  <div className="item-box">
+                    <div className="icon">
+                      <div className="">
+                        <Image src={icon1} alt="img" width={28} height={28} />
+                      </div>
+                    </div>
+                    <div className="">
+                      <h3>
+                        <a href="#">{title1}</a>
+                      </h3>
+                      <div className="space10"></div>
+                      <p dangerouslySetInnerHTML={{ __html: description1 }}></p>
+                    </div>
+                  </div>
+
+                  <div className="item-box">
+                    <div className="icon">
+                      <div className="">
+                        <Image src={icon2} alt="img" width={28} height={28} />
+                      </div>
+                    </div>
+                    <div className="">
+                      <h3>
+                        <a href="#">{title2}</a>
+                      </h3>
+                      <div className="space10"></div>
+                      <p dangerouslySetInnerHTML={{ __html: description2 }}></p>
+                    </div>
+                  </div>
+
+                  <div className="space30"></div>
+                  <div className="">
+                    <Link className="theme-btn1" href={quoteLink}>
+                      Get A Quote <span>
+                        <i className="bi bi-arrow-right"></i>
+                      </span>
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+              <div className="col-lg-6">
+                <div className="images">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="image" style={{ border: "1px solid #D3D3D3", borderTopLeftRadius: "0.5rem", borderTopRightRadius: "0.5rem" }}>
+                        <Image src={visionImage1} alt="img" width={636} height={357} unoptimized />
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="space30"></div>
+                      <div className="image" >
+                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage2} alt="img" width={306} height={283} unoptimized />
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="space30"></div>
+                      <div className="image" >
+                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage3} alt="img" width={306} height={283} unoptimized />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="col-lg-6">
+                <div className="images">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="image" style={{ border: "1px solid #D3D3D3", borderTopLeftRadius: "0.5rem", borderTopRightRadius: "0.5rem" }}>
+                        <Image src={visionImage1} alt="img" width={636} height={357} unoptimized />
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="space30"></div>
+                      <div className="image" >
+                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage2} alt="img" width={306} height={283} unoptimized />
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="space30"></div>
+                      <div className="image" >
+                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage3} alt="img" width={306} height={283} unoptimized />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="heading1">
+                  <span className="span">
+                    <Image src={spanImage} alt="img" width={18} height={16} />
+                    {spanText}
+                  </span>
+                  <h2>{visionTitle}</h2>
+                  <div className="space16"></div>
+                  <p>{visionDescription}</p>
+
+                  <div className="item-box">
+                    <div className="icon">
+                      <div className="">
+                        <Image src={icon1} alt="img" width={28} height={28} />
+                      </div>
+                    </div>
+                    <div className="">
+                      <h3>
+                        <a href="#">{title1}</a>
+                      </h3>
+                      <div className="space10"></div>
+                      <p dangerouslySetInnerHTML={{ __html: description1 }}></p>
+                    </div>
+                  </div>
+
+                  <div className="item-box">
+                    <div className="icon">
+                      <div className="">
+                        <Image src={icon2} alt="img" width={28} height={28} />
+                      </div>
+                    </div>
+                    <div className="">
+                      <h3>
+                        <a href="#">{title2}</a>
+                      </h3>
+                      <div className="space10"></div>
+                      <p dangerouslySetInnerHTML={{ __html: description2 }}></p>
+                    </div>
+                  </div>
+
+                  <div className="space30"></div>
+                  <div className="">
+                    <Link className="theme-btn1" href={quoteLink}>
+                      Get A Quote <span>
+                        <i className="bi bi-arrow-right"></i>
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

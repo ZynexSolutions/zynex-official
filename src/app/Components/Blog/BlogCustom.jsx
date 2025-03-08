@@ -7,7 +7,7 @@ export const blogData = [
     imgSrc: "/assets/img/blog/blog6-img1.png",
     tag: "The IT Corner",
     date: "May,27,2024",
-    title: "Developed a Customer Facing-AI Chatbot for Hogist",
+    title: "Elevated Hogist Customer Service with a Cutting-Edge AI Chatbot",
     content:
       "We've delivered a state of the art AI chatbot which allows hogist to handle multiple customers and collect meaninful insights to ...",
     link: "/blog/blog-details",
@@ -16,7 +16,7 @@ export const blogData = [
     imgSrc: "/assets/img/blog/blog6-img2.png",
     tag: "The IT Corner",
     date: "May,27,2024",
-    title: "A High Convertion Landing Page for Silver Castle Manpower",
+    title: "Developed a Intelligent Horoscope AI with Agentic AI",
     content:
       "We've create a high convertion landing page for Silver Castle Manpower, which helped them get more leads and increase their sales by...",
     link: "/blog/blog-details",
@@ -26,7 +26,7 @@ export const blogData = [
     tag: "The IT Corner",
     date: "May,27,2024",
     title:
-      "E-Learning Android and iOS App for Madras Defence Academy",
+      "Crafted a Sophisticated E-Learning App for Madras Defence Academy",
     content:
       "We've developed an e-learning app for Madras Defence Academy, which helped them educate students, build a community and increase...",
     link: "/blog/blog-details",
@@ -41,16 +41,16 @@ export const blogData = [
       "We've helped Silver Castle Manpower generate leads with high Retun on Ad Spend. we were able to get 300 leads in just 2 weeks...",
     link: "/blog/blog-details",
   },
-  // {
-  //   imgSrc: "/assets/img/blog/blog6-img3.png",
-  //   tag: "The IT Corner",
-  //   date: "May,27,2024",
-  //   title:
-  //     "What Do Employee Engagement Surveys Tell You About Employee?",
-  //   content:
-  //     "Whether you are seeking expert advice on cybersecurity, cloud computing, data analytics,",
-  //   link: "/blog/blog-details",
-  // }
+  {
+    imgSrc: "/assets/img/blog/blog6-img3.png",
+    tag: "The IT Corner",
+    date: "May,27,2024",
+    title:
+      "Empowering Strategy Trader with a Personalized Course Selling Platform",
+    content:
+      "Whether you are seeking expert advice on cybersecurity, cloud computing, data analytics,",
+    link: "/blog/blog-details",
+  }
 ];
 
 const BlogCustom = () => {
