@@ -68,7 +68,7 @@ const ContactInfo1 = () => {
                                     </div>
                                     <div className="heading">
                                         <h5>Send Us a Mail</h5>
-                                        <a href="mailto:admin@techxen.org" className="text">admin@techxen.org</a>
+                                        <a href="mailto:enquire@zynexsolutions.com" className="text">enquire@zynexsolutions.com</a>
                                     </div>
                                 </div>
                                 <div className="contact-box">
