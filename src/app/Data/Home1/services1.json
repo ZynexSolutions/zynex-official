@@ -4,7 +4,7 @@
     "title": "Web Development Services",
     "desc": "We provide fully customized, responsive and user-friendly websites designed to boost your online presence, enhance user engagement, and drive your business growth effectively",
     "btnText": "Learn More",
-    "btnLink": "/service/service-details",
+    "btnLink": "/portfolio",
     "addClass": "col-lg-6"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Ecommerce Solutions",
     "desc": "Start selling online with our complete ecommerce services. we handle everything from store setup to secure payments, so you can reach more customers and grow your sales",
     "btnText": "Learn More",
-    "btnLink": "/service/service-details",
+    "btnLink": "/portfolio",
     "addClass": "col-lg-6"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Android & iOS App Development",
     "desc": "Expand your reach to mobile users. We create custom apps for both Android and Apple devices, designed to meet your specific business goals",
     "btnText": "Learn More",
-    "btnLink": "/service/service-details",
+    "btnLink": "/portfolio",
     "addClass": "col-lg-4"
   },
   {
@@ -28,7 +28,7 @@
     "title": "LLM & Gen AI Services",
     "desc": "We provide advanced gen AI solutions, enabling you to automate workflows, improve customer interactions and deliver cutting edge experiences.",
     "btnText": "Learn More",
-    "btnLink": "/service/service-details",
+    "btnLink": "/portfolio",
     "addClass": "col-lg-4"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Digital Marketing",
     "desc": "We provide customized strategies designed to increase your online visibility engage your target audience effectively and drive measurable reuslts. ",
     "btnText": "Learn More",
-    "btnLink": "/service/service-details",
+    "btnLink": "/portfolio",
     "addClass": "col-lg-4"
   }
 ]

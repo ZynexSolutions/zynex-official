@@ -27,7 +27,7 @@ const HowWork2 = () => {
               <div className="space30"></div>
               <div className="" data-aos="fade-right" data-aos-duration="900">
                 <Link className="theme-btn4 btn--ripple ripple" href="/service">
-                  Get Started Now <i className="bi bi-arrow-right"></i>
+                  Connect With Us <i className="bi bi-arrow-right"></i>
                 </Link>
               </div>
             </div>

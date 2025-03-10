@@ -42,8 +42,8 @@ const Home = () => {
           "Highlight any unique selling points or differentiators.",
           "Incorporate visuals such as team photos shots.",
         ]}
-        btnName="Discover More"
-        btnUrl="/about"
+        btnName="Connect With Us"
+        btnUrl="/contact"
       ></About1>
       <Services1></Services1>
       {/* <Choose1></Choose1> */}
