@@ -1,20 +1,11 @@
 import Link from "next/link";
-import SectionTitle3 from "../Common/SectionTitle3";
+
 import Image from "next/image";
 
 export const blogData = [
   {
-    imgSrc: "/assets/img/blog/blog6-img1.png",
-    tag: "The IT Corner",
-    date: "May,27,2024",
-    title: "Elevated Hogist Customer Service with a Cutting-Edge AI Chatbot",
-    content:
-      "We've delivered a state of the art AI chatbot which allows hogist to handle multiple customers and collect meaninful insights to ...",
-    link: "/blog/blog-details",
-  },
-  {
-    imgSrc: "/assets/img/blog/blog6-img2.png",
-    tag: "The IT Corner",
+    imgSrc: "/images/portfolio/horo.png",
+    tag: "AI Chatbot",
     date: "May,27,2024",
     title: "Developed a Intelligent Horoscope AI with Agentic AI",
     content:
@@ -22,56 +13,63 @@ export const blogData = [
     link: "/blog/blog-details",
   },
   {
-    imgSrc: "/assets/img/blog/blog6-img3.png",
-    tag: "The IT Corner",
+    imgSrc: "/images/portfolio/mda.png",
+    tag: "Android & IOS Application",
     date: "May,27,2024",
-    title:
-      "Crafted a Sophisticated E-Learning App for Madras Defence Academy",
+    title: "Crafted a Sophisticated E-Learning App for Madras Defence Academy",
     content:
       "We've developed an e-learning app for Madras Defence Academy, which helped them educate students, build a community and increase...",
     link: "/blog/blog-details",
   },
 
   {
-    imgSrc: "/assets/img/blog/blog6-img2.png",
-    tag: "The IT Corner",
-    date: "May,27,2024",
-    title: "A Lead Generation Campaign for Silver Castle Manpower with high ROAS",
-    content:
-      "We've helped Silver Castle Manpower generate leads with high Retun on Ad Spend. we were able to get 300 leads in just 2 weeks...",
-    link: "/blog/blog-details",
-  },
-  {
-    imgSrc: "/assets/img/blog/blog6-img3.png",
-    tag: "The IT Corner",
+    imgSrc: "/images/portfolio/strategytrader.png",
+    tag: "Landing Page",
     date: "May,27,2024",
     title:
       "Empowering Strategy Trader with a Personalized Course Selling Platform",
     content:
       "Whether you are seeking expert advice on cybersecurity, cloud computing, data analytics,",
     link: "/blog/blog-details",
-  }
+  },
+  {
+    imgSrc: "/images/portfolio/silvercastle.png",
+    tag: "Website & Marketing",
+    date: "May,27,2024",
+    title:
+      "A Lead Generation Campaign for Silver Castle Manpower with high ROAS",
+    content:
+      "We've helped Silver Castle Manpower generate leads with high Retun on Ad Spend. we were able to get 300 leads in just 2 weeks...",
+    link: "/blog/blog-details",
+  },
+  {
+    imgSrc: "/images/portfolio/ebook.png",
+    tag: "Website & Marketing",
+    date: "May,27,2024",
+    title:
+      "Empowering Strategy Trader with a Personalized Course Selling Platform",
+    content:
+      "Whether you are seeking expert advice on cybersecurity, cloud computing, data analytics,",
+    link: "/blog/blog-details",
+  },
+  {
+    imgSrc: "/images/portfolio/hogist.png",
+    tag: "Business Automation using AI",
+    date: "May,27,2024",
+    title: "Elevated Hogist Customer Service with a Cutting-Edge AI Chatbot",
+    content:
+      "We've delivered a state of the art AI chatbot which allows hogist to handle multiple customers and collect meaninful insights to ...",
+    link: "/blog/blog-details",
+  },
 ];
 
 const BlogCustom = () => {
   return (
-    <div className="blog7 sp" style={{ paddingTop: "50px" }}>
+    <div className="blog7 sp" style={{ paddingTop: "0px" }}>
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6 m-auto text-center">
-            <div className="heading7">
-              <SectionTitle3
-                SubTitle="Our Preivous Work"
-                Title="Explore Our <span>Success Stories</span>"
-              // content="Whether you are looking to enhance productivity, improve efficiency, or stay ahead of technological advancements, we've got you covered."
-              ></SectionTitle3>
-            </div>
-          </div>
-        </div>
         {/* First Row of Blogs */}
         <div className="row">
           {blogData.slice(0, 3).map((blog, index) => (
-
             <div
               className="col-lg-4 col-md-6"
               data-aos="zoom-in-up"
@@ -80,12 +78,7 @@ const BlogCustom = () => {
             >
               <div className="blog-box">
                 <div className="image image-anime">
-                  <Image
-                    src={blog.imgSrc}
-                    alt="img"
-                    width={416}
-                    height={304}
-                  />
+                  <Image src={blog.imgSrc} alt="img" width={416} height={304} />
                 </div>
                 <div className="tags-area">
                   <a href="#" className="tag">
@@ -95,9 +88,9 @@ const BlogCustom = () => {
                       width={16}
                       height={16}
                     />
-                    {blog.tag}
+                    {" " + blog.tag}
                   </a>
-                  <a href="#" className="tag">
+                  {/* <a href="#" className="tag">
                     <Image
                       src="/assets/img/icons/date6.svg"
                       alt="img"
@@ -105,19 +98,19 @@ const BlogCustom = () => {
                       height={16}
                     />{" "}
                     {blog.date}
-                  </a>
+                  </a> */}
                 </div>
                 <div className="heading7">
                   <h4>
                     <Link href={blog.link}>{blog.title}</Link>
                   </h4>
                   <p>{blog.content}</p>
-                  <Link href={blog.link} className="learn">
+                  {/* <Link href={blog.link} className="learn">
                     Learn More{" "}
                     <span>
                       <i className="bi bi-arrow-right"></i>
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -135,12 +128,7 @@ const BlogCustom = () => {
             >
               <div className="blog-box">
                 <div className="image image-anime">
-                  <Image
-                    src={blog.imgSrc}
-                    alt="img"
-                    width={416}
-                    height={304}
-                  />
+                  <Image src={blog.imgSrc} alt="img" width={416} height={304} />
                 </div>
                 <div className="tags-area">
                   <a href="#" className="tag">
@@ -150,9 +138,9 @@ const BlogCustom = () => {
                       width={16}
                       height={16}
                     />
-                    {blog.tag}
+                    {" " + blog.tag}
                   </a>
-                  <a href="#" className="tag">
+                  {/* <a href="#" className="tag">
                     <Image
                       src="/assets/img/icons/date6.svg"
                       alt="img"
@@ -160,19 +148,19 @@ const BlogCustom = () => {
                       height={16}
                     />{" "}
                     {blog.date}
-                  </a>
+                  </a> */}
                 </div>
                 <div className="heading7">
                   <h4>
                     <Link href={blog.link}>{blog.title}</Link>
                   </h4>
                   <p>{blog.content}</p>
-                  <Link href={blog.link} className="learn">
+                  {/* <Link href={blog.link} className="learn">
                     Learn More{" "}
                     <span>
                       <i className="bi bi-arrow-right"></i>
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
