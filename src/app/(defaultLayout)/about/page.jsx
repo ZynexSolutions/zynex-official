@@ -20,7 +20,7 @@ const page = () => {
                 experienceNum="25"
                 experienceTitle="Years Of <br> Experience"
                 subTitle="Our Service"
-                title="Empower Your Business With Our Comprehensive IT Solutions"
+                title="Empowering Businesses With Our Expertise"
                 content="Welcome to TechXen, your premier destination for cutting-edge technology solutions and IT services. At TechXen, we are passionate about harnessing the power of technology to empower businesses a like."
                 counName1="IT Consulting"
                 CounNum1="100%"
@@ -31,7 +31,7 @@ const page = () => {
             <Vission1></Vission1>
             <Testimonial1></Testimonial1>
             <Team2></Team2>
-            <Cta1></Cta1>            
+            <Cta1></Cta1>
 
         </div>
     );

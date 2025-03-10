@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "airtable": "^0.12.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "html-react-parser": "^5.1.18",
     "next": "14.2.15",
+    "posthog-js": "^1.229.5",
     "react": "^18",
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18",
