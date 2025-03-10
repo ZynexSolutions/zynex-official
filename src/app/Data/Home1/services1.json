@@ -1,42 +1,42 @@
 [
   {
     "icon": "/assets/img/icons/service-icon1.png",
-    "title": "Cloud Computing Solutions",
-    "desc": "Harness the power of the cloud with our robust cloud computing solutions. Whether you're looking to migrate to the cloud, optimize your existing infrastructure, or build scalable cloud-native.",   
+    "title": "Web Development Services",
+    "desc": "We provide fully customized, responsive and user-friendly websites designed to boost your online presence, enhance user engagement, and drive your business growth effectively",
     "btnText": "Learn More",
     "btnLink": "/service/service-details",
     "addClass": "col-lg-6"
   },
   {
     "icon": "/assets/img/icons/service-icon2.png",
-    "title": "Data Analytics & Business Intelligence",
-    "desc": "Unlock actionable insights and drive informed decision-making with our advanced data analytics and business intelligence services. Our data-driven approach empowers you to harness the full potential.",   
+    "title": "Ecommerce Solutions",
+    "desc": "Start selling online with our complete ecommerce services. we handle everything from store setup to secure payments, so you can reach more customers and grow your sales",
     "btnText": "Learn More",
     "btnLink": "/service/service-details",
     "addClass": "col-lg-6"
   },
   {
     "icon": "/assets/img/icons/service-icon3.png",
-    "title": "Cybersecurity & Compliance",
-    "desc": "Protect your business from evolving cyber threats and ensure compliance with industry regulations with comprehensive.",   
+    "title": "Android & iOS App Development",
+    "desc": "Expand your reach to mobile users. We create custom apps for both Android and Apple devices, designed to meet your specific business goals",
     "btnText": "Learn More",
     "btnLink": "/service/service-details",
     "addClass": "col-lg-4"
   },
   {
     "icon": "/assets/img/icons/service-icon4.png",
-    "title": "Software Development",
-    "desc": "Transform your ideas into reality with our custom software development and integration services whether you need.",   
+    "title": "LLM & Gen AI Services",
+    "desc": "We provide advanced gen AI solutions, enabling you to automate workflows, improve customer interactions and deliver cutting edge experiences.",
     "btnText": "Learn More",
     "btnLink": "/service/service-details",
     "addClass": "col-lg-4"
   },
   {
     "icon": "/assets/img/icons/service-icon5.png",
-    "title": "It Consulting & Support",
-    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "title": "Digital Marketing",
+    "desc": "We provide customized strategies designed to increase your online visibility engage your target audience effectively and drive measurable reuslts. ",
     "btnText": "Learn More",
     "btnLink": "/service/service-details",
     "addClass": "col-lg-4"
-  }   
+  }
 ]
