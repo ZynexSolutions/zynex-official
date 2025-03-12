@@ -67,10 +67,10 @@ const HeroBanner1 = ({
                     </span>
                   </Link>
                   <span onClick={handelClick} className="play-btn">
+                    Visit Portfolio{" "}
                     <span>
-                      <i className="bi bi-play"></i>
-                    </span>{" "}
-                    Watch Demo Video
+                      <i className="bi bi-arrow-right"></i>
+                    </span>
                   </span>
                 </div>
               </div>
