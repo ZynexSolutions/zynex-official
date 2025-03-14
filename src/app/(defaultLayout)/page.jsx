@@ -3,10 +3,7 @@ import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
 import Award1 from "../Components/Award/Award1";
 import About1 from "../Components/About/About1";
 import Services1 from "../Components/Services/Services1";
-import Choose1 from "../Components/Choose/Choose1";
-import Project1 from "../Components/Project/Project1";
 import HomeFaq1 from "../Components/Faq/HomeFaq1";
-import Pricing1 from "../Components/Pricing/Pricing1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import Blog1 from "../Components/Blog/Blog1";
 import Cta1 from "../Components/Cta/Cta1";
@@ -48,12 +45,13 @@ const Home = () => {
       <Services1></Services1>
       {/* <Choose1></Choose1> */}
       <HowWork2></HowWork2>
-      {/* <Project1></Project1>
-      <Pricing1></Pricing1> */}
+      {/* <Project1></Project1> */}
       <Testimonial1></Testimonial1>
       <Blog1></Blog1>
       <HomeFaq1></HomeFaq1>
-      <Cta1></Cta1>
+      <Cta1
+        description="Take the first step towards achieving your business goals by contacting us today. Schedule a consultation with one of our experts to discuss your objectives "
+      />
     </div>
   );
 };

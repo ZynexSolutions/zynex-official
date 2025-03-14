@@ -1,7 +1,11 @@
 [
   {
-    "title": "Can you integrate secure payment gateways into my ecommerce website?",
-    "desc": "Yes, At zynex we hand over every project with a fulling working secure payment gateway and for e-commerce websites, you'll also get a dashboard to manage your inventory and orders"
+    "title": "Can you integrate payment gateways into my ecommerce website?",
+    "desc": "Yes, we hand over every project with a fulling working secure payment gateway for e-commerce website. Each ecommerce store will also come with a dashboard to manage your inventory and orders. You can connect this system with any trigger based workflow and automate your shipping"
+  },
+  {
+    "title": "Can you help optimize my website for search engines?",
+    "desc": "Yes, we can help optimize your website for search engines to improve visibility and drive more traffic to your site"
   },
   {
     "title": "How long does it typically take to complete a project?",
@@ -9,11 +13,7 @@
   },
   {
     "title": "Can you implement some features on existing websites?",
-    "desc": "Yes, At Zynex we provide full support for feature addtion in exising sites even if it uses legacy codebases"
-  },
-  {
-    "title": "Can you help optimize my website for search engines?",
-    "desc": "Yes, we can help optimize your website for search engines to improve visibility and drive more traffic to your site"
+    "desc": "Yes, we provide full support for feature addtion in exising sites even if it uses legacy codebases"
   },
   {
     "title": "How do you tailor digital marketing strategies to my business?",
