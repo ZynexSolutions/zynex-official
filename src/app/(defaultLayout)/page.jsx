@@ -33,11 +33,12 @@ const Home = () => {
         supCon="TechXen Technology & It Solution"
         subTitle="Why peoples choose us?"
         Title="Zynex solutions will be your trusted Digital Partner"
-        content="TechXen pioneering force in the realm of technology and IT solutions, dedicated to revolutionising the way businesses thrive in the digital age. Our approach is rooted in collaboration, transparency, and a relentless pursuit of excellence. We believe that by staying ahead of the curve and embracing change, we can help our clients stay ahead of  competition."
+        // content="TechXen pioneering force in the realm of technology and IT solutions, dedicated to revolutionising the way businesses thrive in the digital age. Our approach is rooted in collaboration, transparency, and a relentless pursuit of excellence. We believe that by staying ahead of the curve and embracing change, we can help our clients stay ahead of  competition."
+        content="Zynex solutions specializes in creating robust and secure web development solutions, gen AI applications, dynamic digital marketing strategies and scalable e-commerce applications. Our expert developers, AI engineers and digital marketers collaborate to deliver tailored online solutions designed to maximize you business efficient, visibility and profitablity. "
         featurelist={[
-          "Dramatically re-engineer value added IT system.",
-          "Highlight any unique selling points or differentiators.",
-          "Incorporate visuals such as team photos shots.",
+          "Generative AI Applications for Increased Efficiency",
+          "Strategic Digital Marketing Boosting Online Visibility",
+          "E-Commerce Stores Designed for Maximum Sales",
         ]}
         btnName="Connect With Us"
         btnUrl="/contact"
