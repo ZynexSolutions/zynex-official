@@ -78,7 +78,7 @@ const BlogCustom = () => {
             >
               <div className="blog-box">
                 <div className="image image-anime">
-                  <Image src={blog.imgSrc} alt="img" width={416} height={304} />
+                  <Image src={blog.imgSrc} unoptimized alt="img" width={416} height={304} />
                 </div>
                 <div className="tags-area">
                   <a href="#" className="tag">
@@ -90,15 +90,6 @@ const BlogCustom = () => {
                     />
                     {" " + blog.tag}
                   </a>
-                  {/* <a href="#" className="tag">
-                    <Image
-                      src="/assets/img/icons/date6.svg"
-                      alt="img"
-                      width={16}
-                      height={16}
-                    />{" "}
-                    {blog.date}
-                  </a> */}
                 </div>
                 <div className="heading7">
                   <h4>
@@ -128,13 +119,14 @@ const BlogCustom = () => {
             >
               <div className="blog-box">
                 <div className="image image-anime">
-                  <Image src={blog.imgSrc} alt="img" width={416} height={304} />
+                  <Image src={blog.imgSrc} unoptimized alt="img" width={416} height={304} />
                 </div>
                 <div className="tags-area">
                   <a href="#" className="tag">
                     <Image
                       src="/assets/img/icons/tag6.svg"
                       alt="img"
+                      unoptimized
                       width={16}
                       height={16}
                     />

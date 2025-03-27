@@ -15,7 +15,7 @@ const Footer1 = () => {
                                    </div>
                                    <div className="space20"></div>
                                    <div className="heading1">
-                                        <p>At Zynex Solutions, we are dedicated to delivering innovative technology solutions tailored to meet the unique needs of businesses like yours. </p>
+                                        <p>At Zynex Solutions, we are dedicated to delivering innovative <b>Software Solutions</b> tailored to meet the unique needs of businesses like yours. </p>
                                    </div>
                                    <ul className="social-icon">
                                         <li><a href="#"><i className="bi bi-linkedin"></i></a></li>
@@ -31,10 +31,10 @@ const Footer1 = () => {
                                    <h3>Service We Offer</h3>
 
                                    <ul className="menu-list">
-                                        <li><Link href="/service/service-details">Cloud Computing Solution</Link></li>
-                                        <li><Link href="/service/service-details">Cybersecurity & Compliance</Link></li>
-                                        <li><Link href="/service/service-details">Software Development</Link></li>
-                                        <li><Link href="/service/service-details">It Consulting & Support</Link></li>
+                                        <li><Link href="/service/service-details">Generative AI Solutions</Link></li>
+                                        <li><Link href="/service/service-details">Ecommerce Solutions</Link></li>
+                                        <li><Link href="/service/service-details">Web & Mobile Development</Link></li>
+                                        <li><Link href="/service/service-details">Custom Software Solutions</Link></li>
                                    </ul>
                               </div>
                          </div>
@@ -44,10 +44,10 @@ const Footer1 = () => {
                                    <h3>Useful Links</h3>
 
                                    <ul className="menu-list">
-                                        <li><Link href="/about">About Us </Link></li>
-                                        <li><Link href="/service">Our Services</Link></li>
+                                   <li><Link href="/project">Home</Link></li>
+                                        <li><Link href="/about">Portfolio </Link></li>
                                         <li><Link href="/blog">Blog & News</Link></li>
-                                        <li><Link href="/project">Project</Link></li>
+                                        
                                         <li><Link href="/contact">Contact Us</Link></li>
                                    </ul>
                               </div>

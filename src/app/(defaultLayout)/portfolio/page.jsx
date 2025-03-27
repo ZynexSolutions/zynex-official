@@ -5,6 +5,7 @@ import Vision1 from "@/app/Components/Mission/Vission1";
 import Service6 from "@/app/Components/Services/Service6";
 import SectionTitle3 from "@/app/Components/Common/SectionTitle3";
 import BlogCustom from "@/app/Components/Blog/BlogCustom";
+import Blog3 from "@/app/Components/Blog/Blog3";
 import React from "react";
 
 const page = () => {
@@ -47,6 +48,7 @@ const page = () => {
         spanText="Case Study 2"
         contentLeft={true}
       /> */}
+      <Blog3></Blog3> 
       <BlogCustom></BlogCustom>
       <Cta1></Cta1>
     </div>
