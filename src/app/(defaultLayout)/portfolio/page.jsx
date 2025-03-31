@@ -48,8 +48,8 @@ const page = () => {
         spanText="Case Study 2"
         contentLeft={true}
       /> */}
-      <Blog3></Blog3> 
-      <BlogCustom></BlogCustom>
+      <Blog3></Blog3>
+      {/* <BlogCustom></BlogCustom> */}
       <Cta1></Cta1>
     </div>
   );

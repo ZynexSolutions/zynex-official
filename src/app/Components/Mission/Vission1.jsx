@@ -40,7 +40,10 @@ const Vision1 = ({
   contentLeft = false,
 }) => {
   return (
-    <div className="solution about-solution sp">
+    <div
+      className="solution about-solution sp"
+      style={{ paddingBottom: "50px" }}
+    >
       <div className="container">
         <div className="row align-items-center">
           {contentLeft ? (
@@ -88,7 +91,8 @@ const Vision1 = ({
                   <div className="space30"></div>
                   <div className="">
                     <Link className="theme-btn1" href={quoteLink}>
-                      Get A Quote <span>
+                      Get A Quote{" "}
+                      <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
                     </Link>
@@ -99,22 +103,49 @@ const Vision1 = ({
                 <div className="images">
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="image" style={{ border: "1px solid #D3D3D3", borderTopLeftRadius: "0.5rem", borderTopRightRadius: "0.5rem" }}>
-                        <Image src={visionImage1} alt="img" width={636} height={357} unoptimized />
+                      <div
+                        className="image"
+                        style={{
+                          border: "1px solid #D3D3D3",
+                          borderTopLeftRadius: "0.5rem",
+                          borderTopRightRadius: "0.5rem",
+                        }}
+                      >
+                        <Image
+                          src={visionImage1}
+                          alt="img"
+                          width={636}
+                          height={357}
+                          unoptimized
+                        />
                       </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="space30"></div>
-                      <div className="image" >
-                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage2} alt="img" width={306} height={283} unoptimized />
+                      <div className="image">
+                        <Image
+                          style={{ border: "1px solid #d3d3d3" }}
+                          src={visionImage2}
+                          alt="img"
+                          width={306}
+                          height={283}
+                          unoptimized
+                        />
                       </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="space30"></div>
-                      <div className="image" >
-                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage3} alt="img" width={306} height={283} unoptimized />
+                      <div className="image">
+                        <Image
+                          style={{ border: "1px solid #d3d3d3" }}
+                          src={visionImage3}
+                          alt="img"
+                          width={306}
+                          height={283}
+                          unoptimized
+                        />
                       </div>
                     </div>
                   </div>
@@ -127,22 +158,49 @@ const Vision1 = ({
                 <div className="images">
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="image" style={{ border: "1px solid #D3D3D3", borderTopLeftRadius: "0.5rem", borderTopRightRadius: "0.5rem" }}>
-                        <Image src={visionImage1} alt="img" width={636} height={357} unoptimized />
+                      <div
+                        className="image"
+                        style={{
+                          border: "1px solid #D3D3D3",
+                          borderTopLeftRadius: "0.5rem",
+                          borderTopRightRadius: "0.5rem",
+                        }}
+                      >
+                        <Image
+                          src={visionImage1}
+                          alt="img"
+                          width={636}
+                          height={357}
+                          unoptimized
+                        />
                       </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="space30"></div>
-                      <div className="image" >
-                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage2} alt="img" width={306} height={283} unoptimized />
+                      <div className="image">
+                        <Image
+                          style={{ border: "1px solid #d3d3d3" }}
+                          src={visionImage2}
+                          alt="img"
+                          width={306}
+                          height={283}
+                          unoptimized
+                        />
                       </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="space30"></div>
-                      <div className="image" >
-                        <Image style={{ border: "1px solid #d3d3d3" }} src={visionImage3} alt="img" width={306} height={283} unoptimized />
+                      <div className="image">
+                        <Image
+                          style={{ border: "1px solid #d3d3d3" }}
+                          src={visionImage3}
+                          alt="img"
+                          width={306}
+                          height={283}
+                          unoptimized
+                        />
                       </div>
                     </div>
                   </div>
@@ -191,7 +249,8 @@ const Vision1 = ({
                   <div className="space30"></div>
                   <div className="">
                     <Link className="theme-btn1" href={quoteLink}>
-                      Get A Quote <span>
+                      Get A Quote{" "}
+                      <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
                     </Link>

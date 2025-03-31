@@ -1,25 +1,25 @@
 import { Figtree } from "next/font/google";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "slick-carousel/slick/slick.css";
 import "./assets/main.css";
 
 const figtree = Figtree({
-  subsets: ['latin'],
-  weight: ['300','400', '500', '600', '700', '800', '900'],
-  variable: '--body-color-font',
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--body-color-font",
 });
 
 export const metadata = {
   title: {
-    absolute: '',
-    default: 'TechXen - Technology & It Solution NextJS Template',
-    template: '%s | TechXen - Technology & It Solution NextJS Template',
+    absolute: "",
+    default: "Software Development Company",
+    template: "%s | TechXen - Technology & It Solution NextJS Template",
   },
-  description: 'TechXen - Technology & It Solution NextJS Template',
+  description: "Software Development Company",
   openGraph: {
-    title: 'TechXen - Technology & It Solution NextJS Template',
-    description: 'TechXen - Technology & It Solution NextJS Template',
+    title: "TechXen - Technology & It Solution NextJS Template",
+    description: "TechXen - Technology & It Solution NextJS Template",
   },
 };
 
@@ -30,9 +30,7 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Themeservices" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={`${figtree.variable}`}>
-        {children}
-      </body>
+      <body className={`${figtree.variable}`}>{children}</body>
     </html>
   );
 }

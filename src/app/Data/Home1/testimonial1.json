@@ -1,18 +1,34 @@
 [
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
-    "image2": "/assets/img/testimonial/tes1-big-img.png",
+    "image2": "/images/kelly.png",
     "title": "What Our Clients Are Saying",
-    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
-    "clientName": "Kelly Williamson", 
-    "designation": "Client"
+    "desc": "Zynex Solutions transformed our eCommerce store with a sleek design and seamless functionality. Their expertise helped us boost our sales by 40% in just three months. Highly recommend their service!",
+    "clientName": "Kelly Williamson",
+    "designation": "Ecommerce Client"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
-    "image2": "/assets/img/testimonial/tes1-big-img.png",
+    "image2": "/images/jane.png",
     "title": "What Our Clients Are Saying",
-    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
-    "clientName": "Kelly Williamson", 
-    "designation": "Client"
+    "desc": "We entrusted Zynex Solutions with our website development, and they delivered beyond our expectations. The site is fast, responsive, and visually stunning. Their attention to detail is unmatched!",
+    "clientName": "Jane Smith",
+    "designation": "Web Development Client"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/images/joe.png",
+    "title": "What Our Clients Are Saying",
+    "desc": "Zynex Solutions' digital marketing strategies skyrocketed our online presence. Their targeted campaigns significantly increased our lead generation, bringing in quality customers.",
+    "clientName": "David",
+    "designation": "Digital Marketing Client"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/images/john.png",
+    "title": "What Our Clients Are Saying",
+    "desc": "The Zynex team developed a robust and user-friendly mobile app for our business. Their innovative solutions and seamless user experience have earned us rave reviews from our customers.",
+    "clientName": "John Doe",
+    "designation": "Mobile App Client"
   }
 ]

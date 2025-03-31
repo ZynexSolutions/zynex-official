@@ -35,7 +35,7 @@ const HowWork2 = () => {
           <div className="col-lg-8">
             <div className="big-image image-anime">
               <Image
-                src="/assets/img/work/work3-img.png"
+                src="/images/group.png"
                 alt="img"
                 width={856}
                 height={333}

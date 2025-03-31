@@ -1,4 +1,5 @@
-import Blog6 from "@/app/Components/Blog/Blog6";
+import Blog from "./blog";
+import BlogDetailsLeft1 from "./blogdetails";
 import BreadCumb from "@/app/Components/Common/BreadCumb";
 import Cta1 from "@/app/Components/Cta/Cta1";
 import MarqueeText from "@/app/Components/MarqueeText/MarqueeText";
@@ -9,7 +10,8 @@ const page = () => {
     <div>
       <BreadCumb Title="Tech Insights"></BreadCumb>
       <MarqueeText></MarqueeText>
-      <Blog6></Blog6>
+      <BlogDetailsLeft1></BlogDetailsLeft1>
+      <Blog></Blog>
       <Cta1></Cta1>
     </div>
   );
