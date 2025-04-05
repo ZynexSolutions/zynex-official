@@ -13,13 +13,13 @@ const figtree = Figtree({
 export const metadata = {
   title: {
     absolute: "",
-    default: "Software Development Company",
-    template: "%s | TechXen - Technology & It Solution NextJS Template",
+    default: "ZynexSolutions - Software Development Company",
+    template: "%s | ZynexSolutions - Software Development Company",
   },
   description: "Software Development Company",
   openGraph: {
-    title: "TechXen - Technology & It Solution NextJS Template",
-    description: "TechXen - Technology & It Solution NextJS Template",
+    title: "ZynexSolutions - Software Development Company",
+    description: "",
   },
 };
 

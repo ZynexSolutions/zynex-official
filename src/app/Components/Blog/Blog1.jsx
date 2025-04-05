@@ -54,11 +54,14 @@ const Blog1 = () => {
                   </a>
                 </div>
                 <h4>
-                  <Link href="/blog/blog-details">
+                  <Link href="/blog/why-medusa-ecommerce-is-better-than-shopify-and-woocomerce">
                     Why Medusa is better than Sphopify and Woocommerce?
                   </Link>
                 </h4>
-                <Link href="/blog/blog-details" className="learn">
+                <Link
+                  href="/blog/why-medusa-ecommerce-is-better-than-shopify-and-woocomerce"
+                  className="learn"
+                >
                   Learn More{" "}
                   <span>
                     <i
@@ -107,11 +110,14 @@ const Blog1 = () => {
                   </a>
                 </div>
                 <h4>
-                  <Link href="/blog/blog-details">
+                  <Link href="/blog/create-a-high-performing-landing-page-for-your-business">
                     Create a high performing Landing page for your Business{" "}
                   </Link>
                 </h4>
-                <Link href="/blog/blog-details" className="learn">
+                <Link
+                  href="/blog/create-a-high-performing-landing-page-for-your-business"
+                  className="learn"
+                >
                   {" "}
                   Learn More{" "}
                   <span>
@@ -161,11 +167,14 @@ const Blog1 = () => {
                   </a>
                 </div>
                 <h4>
-                  <Link href="/blog/blog-details">
+                  <Link href="/blog/ai-tools-that-you-need-to-use-in-your-business-today">
                     AI tools that you need to use in your Business
                   </Link>
                 </h4>
-                <Link href="/blog/blog-details" className="learn">
+                <Link
+                  href="/blog/ai-tools-that-you-need-to-use-in-your-business-today"
+                  className="learn"
+                >
                   {" "}
                   Learn More{" "}
                   <span>

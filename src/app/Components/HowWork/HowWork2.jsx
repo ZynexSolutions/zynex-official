@@ -26,7 +26,7 @@ const HowWork2 = () => {
               </p>
               <div className="space30"></div>
               <div className="" data-aos="fade-right" data-aos-duration="900">
-                <Link className="theme-btn4 btn--ripple ripple" href="/service">
+                <Link className="theme-btn4 btn--ripple ripple" href="/contact">
                   Connect With Us <i className="bi bi-arrow-right"></i>
                 </Link>
               </div>
@@ -55,9 +55,7 @@ const HowWork2 = () => {
               <div className="heading3">
                 <span className="stap">STEP 01</span>
                 <h3>
-                  <Link href="/service/service-details">
-                    Consultation and Assessment{" "}
-                  </Link>
+                  <Link href="">Consultation and Assessment </Link>
                 </h3>
                 <p>
                   The journey begins with a comprehensive consultation where we
@@ -75,9 +73,7 @@ const HowWork2 = () => {
               <div className="heading3">
                 <span className="stap">STEP 02</span>
                 <h3>
-                  <Link href="/service/service-details">
-                    Customised Solution Design{" "}
-                  </Link>
+                  <Link href="">Customised Solution Design </Link>
                 </h3>
                 <p>
                   Based on the insights gathered during the consultation phase,
@@ -95,9 +91,7 @@ const HowWork2 = () => {
               <div className="heading3">
                 <span className="stap">STEP 03</span>
                 <h3>
-                  <Link href="/service/service-details">
-                    Development and Implementation{" "}
-                  </Link>
+                  <Link href="">Development and Implementation </Link>
                 </h3>
                 <p>
                   Once the solution design is finalized and approved, our
@@ -115,9 +109,7 @@ const HowWork2 = () => {
               <div className="heading3">
                 <span className="stap">STEP 04</span>
                 <h3>
-                  <Link href="/service/service-details">
-                    Deployment and Integration
-                  </Link>
+                  <Link href="">Deployment and Integration</Link>
                 </h3>
                 <p>
                   With testing complete and your solution fully optimized, we

@@ -57,19 +57,19 @@ const Footer1 = () => {
 
               <ul className="menu-list">
                 <li>
-                  <Link href="/#service">Web Development Services</Link>
+                  <Link href="">Web Development Services</Link>
                 </li>
                 <li>
-                  <Link href="/#service">Ecommerce Solutions</Link>
+                  <Link href="">Ecommerce Solutions</Link>
                 </li>
                 <li>
-                  <Link href="/#service">Android & iOS App Development</Link>
+                  <Link href="">Mobile App Development</Link>
                 </li>
                 <li>
-                  <Link href="/#service">LLM & Gen AI Services</Link>
+                  <Link href="">LLM & Gen AI Services</Link>
                 </li>
                 <li>
-                  <Link href="/#service">Digital Marketing</Link>
+                  <Link href="">Digital Marketing</Link>
                 </li>
               </ul>
             </div>
@@ -87,10 +87,10 @@ const Footer1 = () => {
                   <Link href="/service">Our Services</Link>
                 </li>
                 <li>
-                  <Link href="/blog">Blog & News</Link>
+                  <Link href="/blog">Insights</Link>
                 </li>
                 <li>
-                  <Link href="/project">Project</Link>
+                  <Link href="/portfolio">Project</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>

@@ -17,7 +17,7 @@ const Home = () => {
         subTitle="Web Development & Digital Marketing"
         title="Boost Your Business at <span class='after'>70% Less </span> than US Rates"
         content="We provide expert software development solutions. we deliver impactful web & software solutions swiftly and affordably with our expert overseas team. For exceptional quality at competitive rates, contact us today"
-        btnName="Contact Us Now"
+        btnName="Contact Us"
         btnUrl="/contact"
         image1="/assets/home/hero-image-bg.png"
         image2="/assets/home/hero-image.png"

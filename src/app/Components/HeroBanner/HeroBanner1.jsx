@@ -66,12 +66,17 @@ const HeroBanner1 = ({
                       <i className="bi bi-arrow-right"></i>
                     </span>
                   </Link>
-                  <span onClick={handelClick} className="play-btn">
-                    Visit Portfolio{" "}
-                    <span>
-                      <i className="bi bi-arrow-right"></i>
-                    </span>
-                  </span>
+                  <a
+                    href="https://ecommerce.zynexsolutions.com"
+                    target="_blank"
+                  >
+                    <span className="play-btn">
+                      Visit Ecommerce{" "}
+                      <span>
+                        <i className="bi bi-arrow-right"></i>
+                      </span>
+                    </span>{" "}
+                  </a>
                 </div>
               </div>
             </div>
