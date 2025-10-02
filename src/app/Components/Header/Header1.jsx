@@ -31,11 +31,9 @@ export default function Header1({ variant }) {
   return (
     <div className="header-area2 header_nav_03">
       <header
-        className={`cs_site_header cs_style_1 ${
-          variant ? variant : ""
-        } cs_sticky_header cs_site_header_full_width ${
-          mobileToggle ? "cs_mobile_toggle_active" : ""
-        } ${isSticky ? isSticky : ""}`}
+        className={`cs_site_header cs_style_1 ${variant ? variant : ""
+          } cs_sticky_header cs_site_header_full_width ${mobileToggle ? "cs_mobile_toggle_active" : ""
+          } ${isSticky ? isSticky : ""}`}
       >
         <div className="cs_top_header">
           <div className="container">
@@ -49,8 +47,7 @@ export default function Header1({ variant }) {
                       width={18}
                       height={16}
                     />
-                    A Professional Technology & It Solution Company Based On
-                    World
+                    Building Compliant AI for Modern Enterprises
                   </p>
                 </div>
               </div>
@@ -88,7 +85,7 @@ export default function Header1({ variant }) {
               </div>
               <div className="cs_main_header_right header_right_one">
                 <div className="header1-buttons">
-                  <div className="contact-btn">
+                  {/* <div className="contact-btn">
                     <div className="icon">
                       <Image
                         src="/assets/img/icons/header1-icon.png"
@@ -101,10 +98,10 @@ export default function Header1({ variant }) {
                       <p>Make a Call</p>
                       <a href="tel:124(555)6565">124 (555) 6565</a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="button">
                     <Link href="/contact" className="theme-btn1">
-                      Get A Quote{" "}
+                      Connect With Us{" "}
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>

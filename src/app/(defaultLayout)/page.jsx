@@ -14,10 +14,10 @@ const Home = () => {
     <div>
       <HeroBanner1
         bgImg="/assets/img/bg/hero1-bg.png"
-        subTitle="Web Development & Digital Marketing"
-        title="Boost Your Business at <span class='after'>70% Less </span> than US Rates"
-        content="We provide expert software development solutions. we deliver impactful web & software solutions swiftly and affordably with our expert overseas team. For exceptional quality at competitive rates, contact us today"
-        btnName="Contact Us"
+        subTitle="Empowering Business with AI"
+        title="Increase Business Efficiency with <span class='after'>Compliant AI</span>"
+        content="We provide enterprise AI solutions that are compliant with your business needs and regulations, while delivering the highest quality and performance. We figured out the best approach towards Observability, Compliance and Intelligence for your business."
+        btnName="Connect With Us"
         btnUrl="/contact"
         image1="/assets/home/hero-image-bg.png"
         image2="/assets/home/hero-image.png"
