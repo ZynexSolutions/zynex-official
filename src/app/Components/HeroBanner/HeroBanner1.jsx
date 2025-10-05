@@ -71,7 +71,7 @@ const HeroBanner1 = ({
                     target="_blank"
                   >
                     <span className="play-btn">
-                      Visit Ecommerce{" "}
+                      Visit Portfolio{" "}
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
