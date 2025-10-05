@@ -8,6 +8,7 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import Blog1 from "../Components/Blog/Blog1";
 import Cta1 from "../Components/Cta/Cta1";
 import HowWork2 from "../Components/HowWork/HowWork2";
+import Brand1 from "../Components/Brand/Brand1";
 
 const Home = () => {
   return (
@@ -47,6 +48,7 @@ const Home = () => {
       {/* <Choose1></Choose1> */}
       <HowWork2></HowWork2>
       {/* <Project1></Project1> */}
+      <Brand1></Brand1>
       <Testimonial1></Testimonial1>
       <Blog1></Blog1>
       <HomeFaq1></HomeFaq1>
