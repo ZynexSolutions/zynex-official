@@ -11,6 +11,8 @@ import Brand1 from '../Components/Brand/Brand1';
 import Blog5 from '../Components/Blog/Blog5';
 import Cta4 from '../Components/Cta/Cta4';
 
+
+
 const page = () => {
     return (
         <div>
@@ -27,7 +29,7 @@ const page = () => {
                 shape3="/assets/img/shapes/hero7-shape2.png"
                 shape4="/assets/img/shapes/hero7-shape3.png"
                 shape5="/assets/img/shapes/hero7-shape7.png"
-            ></HeroBanner5>  
+            ></HeroBanner5>
             <About5
                 image1="/assets/img/about/about7-image.png"
                 experienceNum="20+"
@@ -42,16 +44,16 @@ const page = () => {
                 ]}
                 btnname="Learn More"
                 btnurl="/about"
-            ></About5>  
-            <Services5></Services5>  
+            ></About5>
+            <Services5></Services5>
             <HowWork4></HowWork4>
             <Skill1></Skill1>
-            <Testimonial4></Testimonial4>   
+            <Testimonial4></Testimonial4>
             <Team3></Team3>
             <Faq2></Faq2>
-            <Brand1></Brand1> 
+            <Brand1></Brand1>
             <Blog5></Blog5>
-            <Cta4></Cta4>                      
+            <Cta4></Cta4>
 
         </div>
     );

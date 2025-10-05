@@ -10,14 +10,36 @@ import Cta1 from "../Components/Cta/Cta1";
 import HowWork2 from "../Components/HowWork/HowWork2";
 import Brand1 from "../Components/Brand/Brand1";
 
+const branddata = [
+  {
+    "img": "/assets/img/logo/caltech.png"
+  },
+  {
+    "img": "/assets/img/logo/consensys.png"
+  },
+  {
+    "img": "/assets/img/logo/johnhopkins.png"
+  },
+  {
+    "img": "/assets/img/logo/mayoclinic.png"
+  },
+  {
+    "img": "/assets/img/logo/minnesota.png"
+  },
+  {
+    "img": "/assets/img/logo/plasma.png"
+  }
+]
+
+
 const Home = () => {
   return (
     <div>
       <HeroBanner1
         bgImg="/assets/img/bg/hero1-bg.png"
         subTitle="Empowering Business with AI"
-        title="Increase Business Efficiency with <span class='after'>Compliant AI</span>"
-        content="We provide enterprise AI solutions that are compliant with your business needs and regulations, while delivering the highest quality and performance. We figured out the best approach towards Observability, Compliance and Intelligence for your business."
+        title="Boost Your Business at <span class='after'>70% Less </span> than US Rates"
+        content="We provide expert AI solutions for your business needs. we deliver impactful software solutions swiftly and affordably with our expert overseas team. For exceptional quality at competitive rates, contact us today"
         btnName="Connect With Us"
         btnUrl="/contact"
         image1="/assets/home/hero-image-bg.png"
@@ -48,7 +70,7 @@ const Home = () => {
       {/* <Choose1></Choose1> */}
       <HowWork2></HowWork2>
       {/* <Project1></Project1> */}
-      <Brand1></Brand1>
+      <Brand1 branddata={branddata} title="Trusted by leading organizations and institutions" />
       <Testimonial1></Testimonial1>
       <Blog1></Blog1>
       <HomeFaq1></HomeFaq1>

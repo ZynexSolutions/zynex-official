@@ -3,7 +3,10 @@ import Slider from "react-slick";
 import data from '../../Data/home5/brand.json';
 import Image from "next/image";
 
-const Brand1 = () => {
+const Brand1 = ({ title, branddata }) => {
+
+  title = title || "Trusted by leading organizations and institutions";
+  branddata = branddata || data;
 
   const settings = {
     dots: false,
@@ -40,10 +43,10 @@ const Brand1 = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="brands-area-all">
-              <p>Trusted by leading organizations and institutions</p>
+              <p>{title}</p>
               <div className="brands6-slider owl-carousel">
                 <Slider {...settings}>
-                  {data.map((item, i) => (
+                  {branddata.map((item, i) => (
                     <div key={i} className="single-slider brand-image-area">
                       <Image src={item.img} alt="img" width={150} height={38} className="brand-image" />
                     </div>

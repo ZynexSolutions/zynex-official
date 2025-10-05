@@ -47,7 +47,7 @@ export default function Header1({ variant }) {
                       width={18}
                       height={16}
                     />
-                    Building Compliant AI for Modern Enterprises
+                    Building Automation and AI Solutions for Modern Enterprises
                   </p>
                 </div>
               </div>
