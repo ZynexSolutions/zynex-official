@@ -24,7 +24,7 @@ const Cta1 = ({
   solutionLabel = "Explore Solution",
 }) => {
   return (
-    <div className="cta">
+    <div className="cta" style={{ marginTop: "50px" }}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-7">

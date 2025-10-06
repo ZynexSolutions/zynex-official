@@ -1,34 +1,58 @@
 [
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
-    "image2": "/images/kelly.png",
-    "title": "What Our Clients Are Saying",
-    "desc": "Zynex Solutions transformed our eCommerce store with a sleek design and seamless functionality. Their expertise helped us boost our sales by 40% in just three months. Highly recommend their service!",
-    "clientName": "Kelly Williamson",
-    "designation": "Ecommerce Client"
+    "image2": "/images/zhanna.png",
+    "title": "Founder of Jaya Talent",
+    "desc": "Zynex transformed our vision into reality by building a powerful AI-driven platform that connects Web3 talent with the right opportunities. Their expertise made Jaya Talent seamless and impactful.",
+    "clientName": "Zhanna Manzyk",
+    "designation": ""
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
-    "image2": "/images/jane.png",
-    "title": "What Our Clients Are Saying",
-    "desc": "We entrusted Zynex Solutions with our website development, and they delivered beyond our expectations. The site is fast, responsive, and visually stunning. Their attention to detail is unmatched!",
-    "clientName": "Jane Smith",
-    "designation": "Web Development Client"
+    "image2": "/images/yasuke.png",
+    "title": "Founder and CEO of Enrission Capital",
+    "desc": "The AI-powered offensive security tool built with Zynex has redefined our defense strategy for Enrission Capital, and it's now deployed across multiple enterprises.",
+    "clientName": "Yusuke Kakimoto",
+    "designation": ""
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
-    "image2": "/images/joe.png",
+    "image2": "/images/hamilton.png",
     "title": "What Our Clients Are Saying",
-    "desc": "Zynex Solutions' digital marketing strategies skyrocketed our online presence. Their targeted campaigns significantly increased our lead generation, bringing in quality customers.",
-    "clientName": "David",
-    "designation": "Digital Marketing Client"
+    "desc": "Their AI-driven culinary app transformed how students pre-order meals and how our chefs plan and manage supplies. The fact that they built it free for Johns Hopkins University to support our mission speaks volumes about their values.",
+    "clientName": "Hamilton",
+    "designation": ""
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
-    "image2": "/images/john.png",
-    "title": "What Our Clients Are Saying",
-    "desc": "The Zynex team developed a robust and user-friendly mobile app for our business. Their innovative solutions and seamless user experience have earned us rave reviews from our customers.",
-    "clientName": "John Doe",
-    "designation": "Mobile App Client"
+    "image2": "/images/seth.png",
+    "title": "Chief Business Officer @ Passes",
+    "desc": "At Passes, the blockchain integration built by Zynex enabled secure, transparent transactions between creators and audiences, strengthening trust across our platform.",
+    "clientName": "Seth Melnick",
+    "designation": ""
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/images/tufia.png",
+    "title": "Professor of Oncology @ Mayo Clinic",
+    "desc": "Partnering with Zynex Solution transformed our oncology operations at Mayo Clinic. Their AI platform improved early cancer detection, treatment planning, and patient outcomes.",
+    "clientName": "Tufia Haddad",
+    "designation": ""
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/images/anima.png",
+    "title": "Professor @ Caltech",
+    "desc": "In one of our Caltech research projects on explainable AI with security, Zynex Solution built an application and infrastructure that brought explainable AI on-chain, enhancing transparency and trust in our models.",
+    "clientName": "Anima Anandkumar",
+    "designation": ""
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/images/paul.png",
+    "title": "Founder of Plasma",
+    "desc": "Zynex Solution helped Plasma by creating smart contracts that enable stablecoins to be securely attested on the Plasma blockchain, ensuring reliability and efficiency.",
+    "clientName": "Paul F.",
+    "designation": ""
   }
 ]

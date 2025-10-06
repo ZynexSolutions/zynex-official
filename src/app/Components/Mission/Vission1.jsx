@@ -42,7 +42,7 @@ const Vision1 = ({
   return (
     <div
       className="solution about-solution sp"
-      style={{ paddingBottom: "50px" }}
+      style={{ paddingBottom: "30px" }}
     >
       <div className="container">
         <div className="row align-items-center">

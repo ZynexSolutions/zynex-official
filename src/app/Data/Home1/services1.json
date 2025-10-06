@@ -1,40 +1,40 @@
 [
   {
     "icon": "/assets/img/icons/service-icon1.png",
-    "title": "Web Development Services",
-    "desc": "We provide fully customized, responsive and user-friendly websites designed to boost your online presence, enhance user engagement, and drive your business growth effectively",
+    "title": "IT and Cloud Solutions",
+    "desc": "We offer scalable IT and cloud services, including infrastructure setup, seamless cloud migration, and reliable managed support. Our solutions help businesses improve efficiency, reduce costs, and ensure secure, future-ready operations.",
     "btnText": "Learn More",
     "btnLink": "/portfolio",
     "addClass": "col-lg-6"
   },
   {
     "icon": "/assets/img/icons/service-icon2.png",
-    "title": "Ecommerce Solutions",
-    "desc": "Start selling online with our complete ecommerce services. we handle everything from store setup to secure payments, so you can reach more customers and grow your sales",
+    "title": "LLM & Gen AI Services",
+    "desc": "We deliver advanced Generative AI solutions that help automate workflows, enhance customer interactions, and create innovative digital experiences. Our AI services empower businesses to stay ahead with future-ready solutions.",
     "btnText": "Learn More",
     "btnLink": "/portfolio",
     "addClass": "col-lg-6"
   },
   {
     "icon": "/assets/img/icons/service-icon3.png",
-    "title": "Android & iOS App Development",
-    "desc": "Expand your reach to mobile users. We create custom apps for both Android and Apple devices, designed to meet your specific business goals",
+    "title": "Web & Mobile App Development",
+    "desc": "Expand your reach to mobile users. We create custom apps for both Android and Apple devices, enhance user engagement, and drive your business growth effectively.",
     "btnText": "Learn More",
     "btnLink": "/portfolio",
     "addClass": "col-lg-4"
   },
   {
     "icon": "/assets/img/icons/service-icon4.png",
-    "title": "LLM & Gen AI Services",
-    "desc": "We provide advanced gen AI solutions, enabling you to automate workflows, improve customer interactions and deliver cutting edge experiences.",
+    "title": "Blockchain as a Service",
+    "desc": "We deliver end-to-end blockchain solutions including smart contracts, decentralized apps and secure ledgers - helping businesses enhance security through blockchain technology.",
     "btnText": "Learn More",
     "btnLink": "/portfolio",
     "addClass": "col-lg-4"
   },
   {
     "icon": "/assets/img/icons/service-icon5.png",
-    "title": "Digital Marketing",
-    "desc": "We provide customized strategies designed to increase your online visibility engage your target audience effectively and drive measurable reuslts. ",
+    "title": "Ecommerce Solutions",
+    "desc": "Start selling online with our complete ecommerce services. we handle everything from store setup to secure payments, so you can reach more customers and grow your sales.",
     "btnText": "Learn More",
     "btnLink": "/portfolio",
     "addClass": "col-lg-4"

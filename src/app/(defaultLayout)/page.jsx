@@ -12,25 +12,24 @@ import Brand1 from "../Components/Brand/Brand1";
 
 const branddata = [
   {
-    "img": "/assets/img/logo/caltech.png"
+    img: "/assets/img/logo/caltech.png",
   },
   {
-    "img": "/assets/img/logo/consensys.png"
+    img: "/assets/img/logo/consensys.png",
   },
   {
-    "img": "/assets/img/logo/johnhopkins.png"
+    img: "/assets/img/logo/johnhopkins.png",
   },
   {
-    "img": "/assets/img/logo/mayoclinic.png"
+    img: "/assets/img/logo/mayoclinic.png",
   },
   {
-    "img": "/assets/img/logo/minnesota.png"
+    img: "/assets/img/logo/minnesota.png",
   },
   {
-    "img": "/assets/img/logo/plasma.png"
-  }
-]
-
+    img: "/assets/img/logo/plasma.png",
+  },
+];
 
 const Home = () => {
   return (
@@ -57,11 +56,11 @@ const Home = () => {
         subTitle="Why peoples choose us?"
         Title="Zynex solutions will be your trusted Digital Partner"
         // content="TechXen pioneering force in the realm of technology and IT solutions, dedicated to revolutionising the way businesses thrive in the digital age. Our approach is rooted in collaboration, transparency, and a relentless pursuit of excellence. We believe that by staying ahead of the curve and embracing change, we can help our clients stay ahead of  competition."
-        content="Zynex solutions specializes in creating robust and secure web development solutions, gen AI applications, dynamic digital marketing strategies and scalable e-commerce applications. Our expert developers, AI engineers and digital marketers collaborate to deliver tailored online solutions designed to maximize you business efficient, visibility and profitablity. "
+        content="Zynex solutions specializes in creating robust and secure web development solutions, gen AI applications, dynamic digital marketing strategies and scalable e-commerce applications. Our expert developers, AI engineers and digital marketers collaborate to deliver tailored online solutions designed to maximize your business efficient, visibility and profitablity. "
         featurelist={[
           "Generative AI Applications for Increased Efficiency",
-          "Strategic Digital Marketing Boosting Online Visibility",
-          "E-Commerce Stores Designed for Maximum Sales",
+          "Blockchain Solutions Enhancing Security & Transparency",
+          "Comprehensive Softwares Driving Business Growth",
         ]}
         btnName="Connect With Us"
         btnUrl="/contact"
@@ -70,7 +69,10 @@ const Home = () => {
       {/* <Choose1></Choose1> */}
       <HowWork2></HowWork2>
       {/* <Project1></Project1> */}
-      <Brand1 branddata={branddata} title="Trusted by leading organizations and institutions" />
+      <Brand1
+        branddata={branddata}
+        title="Trusted by leading organizations and institutions"
+      />
       <Testimonial1></Testimonial1>
       <Blog1></Blog1>
       <HomeFaq1></HomeFaq1>
