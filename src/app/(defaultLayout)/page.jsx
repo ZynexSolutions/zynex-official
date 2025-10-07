@@ -9,6 +9,7 @@ import Blog1 from "../Components/Blog/Blog1";
 import Cta1 from "../Components/Cta/Cta1";
 import HowWork2 from "../Components/HowWork/HowWork2";
 import Brand1 from "../Components/Brand/Brand1";
+import LogoDisplay1 from "../Components/Logo/LogoDisplay1";
 
 const branddata = [
   {
@@ -28,8 +29,30 @@ const branddata = [
   },
   {
     img: "/assets/img/logo/plasma.png",
+  }
+]
+
+const partnerimagedata = [
+  {
+    img: "/assets/img/logo/partners/anthropic.png",
   },
-];
+  {
+    img: "/assets/img/logo/partners/crewai.png",
+  },
+  {
+    img: "/assets/img/logo/partners/elevenlabs.png",
+  },
+  {
+    img: "/assets/img/logo/partners/langchain.png",
+  },
+  {
+    img: "/assets/img/logo/partners/openai.png",
+  },
+  {
+    img: "/assets/img/logo/partners/alibaba.png",
+  },
+]
+
 
 const Home = () => {
   return (
@@ -65,6 +88,7 @@ const Home = () => {
         btnName="Connect With Us"
         btnUrl="/contact"
       ></About1>
+      <LogoDisplay1 branddata={partnerimagedata} title="Powered by The Most Trusted AI Partners" />
       <Services1></Services1>
       {/* <Choose1></Choose1> */}
       <HowWork2></HowWork2>

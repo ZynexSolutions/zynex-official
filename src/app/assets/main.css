@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("./logodisplay.css");
 /*
 ============================
 Name:  TechXen Technology & It Solution Template
@@ -27500,13 +27501,20 @@ li.has-dropdown1 span {
   max-width: 64px;
 }
 
+.brand-image-area {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
 .brand-image-area img {
   max-width: 200px;
-  max-height: 50px;
+  max-height: 100px;
   width: auto;
-  height: 45px;
+  height: 65px;
   display: block;
   object-fit: contain;
+
 }
 
 .header_style_5.cs-gescout_sticky {

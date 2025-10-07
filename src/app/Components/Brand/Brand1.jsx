@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import data from '../../Data/home5/brand.json';
 import Image from "next/image";
 
-const Brand1 = ({ title, branddata }) => {
+const Brand1 = ({ title, branddata, direction = "left" }) => {
 
   title = title || "Trusted by leading organizations and institutions";
   branddata = branddata || data;
@@ -12,6 +12,8 @@ const Brand1 = ({ title, branddata }) => {
     dots: false,
     infinite: true,
     speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
@@ -45,10 +47,10 @@ const Brand1 = ({ title, branddata }) => {
             <div className="brands-area-all">
               <p>{title}</p>
               <div className="brands6-slider owl-carousel">
-                <Slider {...settings}>
+                <Slider {...settings} rtl={direction === "right"}>
                   {branddata.map((item, i) => (
                     <div key={i} className="single-slider brand-image-area">
-                      <Image src={item.img} alt="img" width={150} height={38} className="brand-image" />
+                      <Image src={item.img} alt="img" width={150} height={50} className="brand-image" />
                     </div>
                   ))}
                 </Slider>
