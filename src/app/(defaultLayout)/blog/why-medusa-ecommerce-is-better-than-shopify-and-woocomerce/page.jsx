@@ -11,7 +11,7 @@ const page = () => {
       <BreadCumb Title="Tech Insights"></BreadCumb>
       <MarqueeText></MarqueeText>
       <BlogDetailsLeft1></BlogDetailsLeft1>
-      <Blog></Blog>
+      {/* <Blog></Blog> */}
       <Cta1></Cta1>
     </div>
   );

@@ -191,14 +191,14 @@ const BlogDetailsLeft1 = () => {
                   <div className="social-users">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="https://x.com/tara_deschamps">
                           <Image
                             src="/assets/img/icons/user-icon1.png"
                             alt="author icon"
                             width={16}
                             height={16}
                           />{" "}
-                          Sabari H.
+                          Tara Deschamps
                         </a>
                       </li>
                       <li>

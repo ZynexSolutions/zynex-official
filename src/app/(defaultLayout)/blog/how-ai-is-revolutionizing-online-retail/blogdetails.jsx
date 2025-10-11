@@ -186,14 +186,14 @@ const BlogDetailsLeft1 = () => {
                   <div className="social-users">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="https://www.cnbc.com/ryan-browne/">
                           <Image
                             src="/assets/img/icons/user-icon1.png"
                             alt="img"
                             width={16}
                             height={16}
                           />{" "}
-                          Rahul B.
+                          Ryan Browne.
                         </a>
                       </li>
                       <li>
