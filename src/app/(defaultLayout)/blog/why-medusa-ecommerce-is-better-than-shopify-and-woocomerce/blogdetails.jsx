@@ -177,7 +177,7 @@ const BlogDetailsLeft1 = () => {
                 <div className="details-post-area">
                   <div className="image">
                     <Image
-                      src="/images/blogs/blog2.png"
+                      src="/images/blog-imgs/medusa.png"
                       alt="img"
                       width={838}
                       height={503}
@@ -186,14 +186,14 @@ const BlogDetailsLeft1 = () => {
                   <div className="social-users">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="https://x.com/tara_deschamps">
                           <Image
                             src="/assets/img/icons/user-icon1.png"
                             alt="img"
                             width={16}
                             height={16}
                           />{" "}
-                          Sabari H.
+                          Tara Deschamps
                         </a>
                       </li>
                       <li>
@@ -440,7 +440,7 @@ const BlogDetailsLeft1 = () => {
                   <div className="video-area-image">
                     <div className="image">
                       <Image
-                        src="/assets/img/blog/blog-post-video-img.png"
+                        src="/images/blogs/blog2.png"
                         alt="img"
                         width={838}
                         height={503}

@@ -180,7 +180,7 @@ const BlogDetailsLeft1 = () => {
                   <div className="image">
                     <Image
                       // Use an image relevant to AI tools / Business productivity
-                      src="/images/blogs/blog3.png" // Placeholder - Update this path
+                      src="/images/blog-imgs/aitools.png" // Placeholder - Update this path
                       alt="Hand interacting with tablet showing AI business tool icons" // Descriptive alt text based on previous prompt
                       width={838}
                       height={503}

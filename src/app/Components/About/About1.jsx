@@ -22,7 +22,7 @@ const About1 = ({
             <div className="about-image">
               <div className="image1">
                 <Image
-                  src="/assets/img/home/sec2img1.png"
+                  src="/images/slim.png"
                   alt="img"
                   width={100}
                   height={321}

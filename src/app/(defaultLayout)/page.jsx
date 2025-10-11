@@ -29,8 +29,8 @@ const branddata = [
   },
   {
     img: "/assets/img/logo/plasma.png",
-  }
-]
+  },
+];
 
 const partnerimagedata = [
   {
@@ -63,8 +63,7 @@ const partnerimagedata = [
   {
     img: "/assets/img/logo/partners/n8n.png",
   },
-]
-
+];
 
 const Home = () => {
   return (
@@ -83,7 +82,6 @@ const Home = () => {
       ></HeroBanner1>
       <Award1></Award1>
       <About1
-        image1="/assets/img/about/about1-img1.png"
         image2="/assets/img/about/about1-img2.png"
         supIcon="/assets/img/icons/about1-shape-icon.png"
         supTitle="24/7 Support"
@@ -100,7 +98,10 @@ const Home = () => {
         btnName="Connect With Us"
         btnUrl="/contact"
       ></About1>
-      <LogoDisplay1 branddata={partnerimagedata} title="Powered by The Most Trusted AI Partners" />
+      <LogoDisplay1
+        branddata={partnerimagedata}
+        title="Powered by The Most Trusted AI Partners"
+      />
       <Services1></Services1>
       {/* <Choose1></Choose1> */}
       <HowWork2></HowWork2>

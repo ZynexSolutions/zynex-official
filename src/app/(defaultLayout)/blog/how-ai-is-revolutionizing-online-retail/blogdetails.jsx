@@ -177,7 +177,7 @@ const BlogDetailsLeft1 = () => {
                 <div className="details-post-area">
                   <div className="image">
                     <Image
-                      src="/images/blogs/blog1.png"
+                      src="/images/blog-imgs/retail.png"
                       alt="img"
                       width={838}
                       height={503}
@@ -323,7 +323,7 @@ const BlogDetailsLeft1 = () => {
                   <div className="video-area-image">
                     <div className="image">
                       <Image
-                        src="/assets/img/blog/blog-post-video-img.png"
+                        src="/images/blog-imgs/retail2.png"
                         alt="img"
                         width={838}
                         height={503}

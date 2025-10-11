@@ -10,7 +10,7 @@ const Blog6 = () => {
             <div className="blog2-box">
               <div className="image">
                 <Image
-                  src="/images/blogs/blog2-img3.png"
+                  src="/images/blog-imgs/retail.png"
                   alt="img"
                   width={636}
                   height={457}
@@ -27,14 +27,17 @@ const Blog6 = () => {
                     />{" "}
                     10/02/2025
                   </a>
-                  <a href="#" className="date outhor">
+                  <a
+                    href="https://www.cnbc.com/ryan-browne/"
+                    className="date outhor"
+                  >
                     <Image
                       src="/assets/img/icons/user.png"
                       alt="img"
                       width={12}
                       height={14}
                     />{" "}
-                    Rahul
+                    Ryan Browne
                   </a>
                 </div>
                 <h4>
@@ -66,7 +69,7 @@ const Blog6 = () => {
             <div className="blog2-box">
               <div className="image">
                 <Image
-                  src="/images/blogs/blog2-img8.png"
+                  src="/images/blog-imgs/medusa.png"
                   alt="img"
                   width={636}
                   height={457}
@@ -83,14 +86,17 @@ const Blog6 = () => {
                     />{" "}
                     16/02/2025
                   </a>
-                  <a href="#" className="date outhor">
+                  <a
+                    href="https://x.com/tara_deschamps"
+                    className="date outhor"
+                  >
                     <Image
                       src="/assets/img/icons/user.png"
                       alt="img"
                       width={12}
                       height={14}
                     />{" "}
-                    Sabari H.
+                    Tara Deschamps
                   </a>
                 </div>
                 <h4>
@@ -121,7 +127,7 @@ const Blog6 = () => {
             <div className="blog2-box">
               <div className="image">
                 <Image
-                  src="/images/blogs/blog2-img1.png"
+                  src="/images/blog-imgs/aitools.png"
                   alt="img"
                   width={636}
                   height={457}
@@ -138,14 +144,14 @@ const Blog6 = () => {
                     />{" "}
                     14/03/2025
                   </a>
-                  <a href="#" className="date outhor">
+                  <a href="https://x.com/megesimpson" className="date outhor">
                     <Image
                       src="/assets/img/icons/user.png"
                       alt="img"
                       width={12}
                       height={14}
                     />{" "}
-                    Rahul B.
+                    Meagan Simpson
                   </a>
                 </div>
                 <h4>
@@ -193,14 +199,17 @@ const Blog6 = () => {
                     />{" "}
                     18/03/2025
                   </a>
-                  <a href="#" className="date outhor">
+                  <a
+                    href="https://x.com/tara_deschamps"
+                    className="date outhor"
+                  >
                     <Image
                       src="/assets/img/icons/user.png"
                       alt="img"
                       width={12}
                       height={14}
                     />{" "}
-                    Sabari H.
+                    Tara Deschamps
                   </a>
                 </div>
                 <h4>
@@ -232,7 +241,7 @@ const Blog6 = () => {
             <div className="blog2-box">
               <div className="image">
                 <Image
-                  src="/images/blogs/blog2-img5.png"
+                  src="/images/blog-imgs/lp.png"
                   alt="img"
                   width={636}
                   height={457}
@@ -249,14 +258,14 @@ const Blog6 = () => {
                     />{" "}
                     25/02/2025
                   </a>
-                  <a href="#" className="date outhor">
+                  <a href="https://x.com/megesimpson" className="date outhor">
                     <Image
                       src="/assets/img/icons/user.png"
                       alt="img"
                       width={12}
                       height={14}
                     />{" "}
-                    Rahul B.
+                    Meagan Simpson
                   </a>
                 </div>
                 <h4>
@@ -288,7 +297,7 @@ const Blog6 = () => {
             <div className="blog2-box">
               <div className="image">
                 <Image
-                  src="/images/blogs/blog2-img4.png"
+                  src="/images/blog-imgs/ai.png"
                   alt="img"
                   width={636}
                   height={457}
@@ -305,14 +314,17 @@ const Blog6 = () => {
                     />{" "}
                     23/03/2025
                   </a>
-                  <a href="#" className="date outhor">
+                  <a
+                    href="https://x.com/tara_deschamps"
+                    className="date outhor"
+                  >
                     <Image
                       src="/assets/img/icons/user.png"
                       alt="img"
                       width={12}
                       height={14}
                     />{" "}
-                    Sabari H.
+                    Tara Deschamps
                   </a>
                 </div>
                 <h4>
