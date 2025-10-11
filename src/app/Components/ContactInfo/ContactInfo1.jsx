@@ -57,6 +57,7 @@ const ContactInfo1 = () => {
                   </p>
                 </div>
                 {/* <div className="contact-box">
+                {/* <div className="contact-box">
                   <div className="icon">
                     <Image
                       src="/assets/img/icons/contact-page-icon1.png"
@@ -74,6 +75,7 @@ const ContactInfo1 = () => {
                     </a>
                   </div>
                 </div> */}
+
                 <div className="contact-box">
                   <div className="icon">
                     <Image

@@ -5973,6 +5973,7 @@ a.header__search.header-search-btn p {
   .about1 .heading1 .list li {
     line-height: var(--f-fs-font-fs28);
     display: block;
+    font-size: 1.1rem;
   }
 }
 
@@ -10265,10 +10266,14 @@ a.header__search.header-search-btn p {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  display: flex; /* Ensures the box respects its dimensions */
-  flex-shrink: 0; /* Prevents the box from shrinking below 60px */
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
+  display: flex;
+  /* Ensures the box respects its dimensions */
+  flex-shrink: 0;
+  /* Prevents the box from shrinking below 60px */
+  justify-content: center;
+  /* Centers content horizontally */
+  align-items: center;
+  /* Centers content vertically */
   text-align: center;
   line-height: 60px;
   background-color: rgba(161, 233, 52, 0.0941176471);
