@@ -51,6 +51,18 @@ const partnerimagedata = [
   {
     img: "/assets/img/logo/partners/alibaba.png",
   },
+  {
+    img: "/assets/img/logo/partners/aws.png",
+  },
+  {
+    img: "/assets/img/logo/partners/fal.png",
+  },
+  {
+    img: "/assets/img/logo/partners/gemini.png",
+  },
+  {
+    img: "/assets/img/logo/partners/n8n.png",
+  },
 ]
 
 
@@ -60,7 +72,7 @@ const Home = () => {
       <HeroBanner1
         bgImg="/assets/img/bg/hero1-bg.png"
         subTitle="Empowering Business with AI"
-        title="Boost Your Business at <span class='after'>70% Less </span> than US Rates"
+        title="Boost Your Business with AI at <span class='after'>70% Less </span> than US Rates"
         content="We provide expert AI solutions for your business needs. we deliver impactful software solutions swiftly and affordably with our expert overseas team. For exceptional quality at competitive rates, contact us today"
         btnName="Connect With Us"
         btnUrl="/contact"
