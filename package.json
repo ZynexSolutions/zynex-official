@@ -13,6 +13,7 @@
     "airtable": "^0.12.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "caniuse-lite": "^1.0.30001749",
     "html-react-parser": "^5.1.18",
     "next": "14.2.15",
     "posthog-js": "^1.229.5",
