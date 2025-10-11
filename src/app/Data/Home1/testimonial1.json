@@ -5,7 +5,8 @@
     "title": "Founder of Jaya Talent",
     "desc": "Zynex transformed our vision into reality by building a powerful AI-driven platform that connects Web3 talent with the right opportunities. Their expertise made Jaya Talent seamless and impactful.",
     "clientName": "Zhanna Manzyk",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/blockchain-startup--recruitment/"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -13,7 +14,8 @@
     "title": "Founder and CEO of Enrission Capital",
     "desc": "The AI-powered offensive security tool built with Zynex has redefined our defense strategy for Enrission Capital, and it's now deployed across multiple enterprises.",
     "clientName": "Yusuke Kakimoto",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/yusuke-kakimoto-a243552ab/"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -21,7 +23,8 @@
     "title": "What Our Clients Are Saying",
     "desc": "Their AI-driven culinary app transformed how students pre-order meals and how our chefs plan and manage supplies. The fact that they built it free for Johns Hopkins University to support our mission speaks volumes about their values.",
     "clientName": "Hamilton",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/hamilton-goss-pcii-cec-cca-b6260831/"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -29,7 +32,8 @@
     "title": "Chief Business Officer @ Passes",
     "desc": "At Passes, the blockchain integration built by Zynex enabled secure, transparent transactions between creators and audiences, strengthening trust across our platform.",
     "clientName": "Seth Melnick",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/seth-melnick-95899624/"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -37,7 +41,8 @@
     "title": "Professor of Oncology @ Mayo Clinic",
     "desc": "Partnering with Zynex Solution transformed our oncology operations at Mayo Clinic. Their AI platform improved early cancer detection, treatment planning, and patient outcomes.",
     "clientName": "Tufia Haddad",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/tufia-haddad-m-d-a4246a28b/"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -45,7 +50,8 @@
     "title": "Professor @ Caltech",
     "desc": "In one of our Caltech research projects on explainable AI with security, Zynex Solution built an application and infrastructure that brought explainable AI on-chain, enhancing transparency and trust in our models.",
     "clientName": "Anima Anandkumar",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/anima-anandkumar/"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -53,6 +59,7 @@
     "title": "Founder of Plasma",
     "desc": "Zynex Solution helped Plasma by creating smart contracts that enable stablecoins to be securely attested on the Plasma blockchain, ensuring reliability and efficiency.",
     "clientName": "Paul F.",
-    "designation": ""
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/paul-f-540895a4/"
   }
 ]

@@ -4,6 +4,7 @@ import data from "../../Data/Home1/testimonial1.json";
 import SectionTitle from "../Common/SectionTitle";
 import { useRef } from "react";
 import Image from "next/image";
+import { FaLinkedin } from "react-icons/fa"
 
 const Testimonial1 = () => {
   const sliderRef = useRef(null);
@@ -76,7 +77,10 @@ const Testimonial1 = () => {
                         <div className="bottom-area">
                           <div className="heading">
                             <h5>
-                              <a href="#">{item.clientName}</a>
+                              <a href={item.linkedin} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                                {item.clientName}
+                                <FaLinkedin className="testimonial-linkedin-icon" />
+                              </a>
                             </h5>
                             <p>{item.designation}</p>
                           </div>

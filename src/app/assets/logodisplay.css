@@ -61,6 +61,15 @@
     object-fit: contain;
 }
 
+.testimonial-linkedin-icon {
+    color: #828282;
+    transition: color 0.2s;
+}
+
+a:hover .testimonial-linkedin-icon {
+    color: #0a66c2;
+}
+
 @media (max-width: 1200px) {
     .logo-display-item-1 img {
         max-width: 155px;
