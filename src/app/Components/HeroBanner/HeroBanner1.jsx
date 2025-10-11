@@ -67,7 +67,7 @@ const HeroBanner1 = ({
                     </span>
                   </Link>
                   <a
-                    href="https://ecommerce.zynexsolutions.com"
+                    href="https://www.zynexsolutions.com/portfolio "
                     target="_blank"
                   >
                     <span className="play-btn">
