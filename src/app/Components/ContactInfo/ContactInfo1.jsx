@@ -56,7 +56,7 @@ const ContactInfo1 = () => {
                     know how to deliver on its
                   </p>
                 </div>
-                <div className="contact-box">
+                {/* <div className="contact-box">
                   <div className="icon">
                     <Image
                       src="/assets/img/icons/contact-page-icon1.png"
@@ -71,7 +71,7 @@ const ContactInfo1 = () => {
                       (124) 555-6565
                     </a>
                   </div>
-                </div>
+                </div> */}
                 <div className="contact-box">
                   <div className="icon">
                     <Image
@@ -102,10 +102,11 @@ const ContactInfo1 = () => {
                   </div>
                   <div className="heading">
                     <h5>Office Location</h5>
-                    <a href="tel:(124)555-6565" className="text">
-                      Chennai
-                      <br /> Tamilnadu, India
-                    </a>
+                    <br />
+                    <div className="text">
+                      Zaa'beel Second - Za'abeel 2 - Dubai - United Arab Emirates<br />
+                      Prestige Polygon, 11th floor, Thousand Lights West, Thousand Lights, Chennai, Tamil Nadu 600006
+                    </div>
                   </div>
                 </div>
               </div>
