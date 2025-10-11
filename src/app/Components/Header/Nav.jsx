@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import DropDown from './DropDown';
+import Link from "next/link";
+import DropDown from "./DropDown";
 
 export default function Nav({ setMobileToggle }) {
   return (
@@ -36,14 +36,14 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>
-      <li className='menu-item'>
+      <li className="menu-item">
         <Link href="/portfolio" onClick={() => setMobileToggle(false)}>
-          Portfolio
+          Case Studies
         </Link>
       </li>
       <li className="menu-item">
         <Link href="/blog" onClick={() => setMobileToggle(false)}>
-          Insights
+          Blogs
         </Link>
       </li>
       {/* <li className="menu-item">

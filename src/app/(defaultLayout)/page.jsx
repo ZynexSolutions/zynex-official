@@ -30,6 +30,12 @@ const branddata = [
   {
     img: "/assets/img/logo/plasma.png",
   },
+  {
+    img: "/assets/img/logo/sulaiman.png",
+  },
+  {
+    img: "/assets/img/logo/mashreq.png",
+  },
 ];
 
 const partnerimagedata = [

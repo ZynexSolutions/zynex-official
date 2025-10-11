@@ -26,7 +26,7 @@ const Blog1 = () => {
             >
               <div className="image image-anime">
                 <Image
-                  src="/images/blogs/blog2-img8.png"
+                  src="/images/blog-imgs/medusa.png"
                   alt="img"
                   width={414}
                   height={252}
@@ -34,14 +34,14 @@ const Blog1 = () => {
               </div>
               <div className="heading">
                 <div className="tags">
-                  <a href="#">
+                  <a href="https://x.com/tara_deschamps">
                     <Image
                       src="/assets/img/icons/blog-icon1.png"
                       alt="img"
                       width={16}
                       height={16}
                     />{" "}
-                    Rahul B.
+                    Tara Deschamps
                   </a>
                   <a href="#">
                     <Image
@@ -82,7 +82,7 @@ const Blog1 = () => {
             >
               <div className="image image-anime">
                 <Image
-                  src="/images/blogs/blog2-img5.png"
+                  src="/images/blog-imgs/lp.png"
                   alt="img"
                   width={414}
                   height={252}
@@ -90,14 +90,14 @@ const Blog1 = () => {
               </div>
               <div className="heading">
                 <div className="tags">
-                  <a href="#">
+                  <a href="https://x.com/megesimpson">
                     <Image
                       src="/assets/img/icons/blog-icon1.png"
                       alt="img"
                       width={16}
                       height={16}
                     />{" "}
-                    Sabari H.
+                    Meagan Simpson
                   </a>
                   <a href="#">
                     <Image
@@ -139,7 +139,7 @@ const Blog1 = () => {
             >
               <div className="image image-anime">
                 <Image
-                  src="/images/blogs/blog2-img1.png"
+                  src="/images/blog-imgs/aitools.png"
                   alt="img"
                   width={414}
                   height={252}
@@ -147,14 +147,14 @@ const Blog1 = () => {
               </div>
               <div className="heading">
                 <div className="tags">
-                  <a href="#">
+                  <a href="https://x.com/megesimpson">
                     <Image
                       src="/assets/img/icons/blog-icon1.png"
                       alt="img"
                       width={16}
                       height={16}
                     />{" "}
-                    Rahul B.
+                    Meagan Simpson
                   </a>
                   <a href="#">
                     <Image

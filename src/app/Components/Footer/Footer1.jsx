@@ -26,7 +26,7 @@ const Footer1 = () => {
                   your businesses.{" "}
                 </p>
               </div>
-              <ul className="social-icon">
+              {/* <ul className="social-icon">
                 <li>
                   <a href="#">
                     <i className="bi bi-linkedin"></i>
@@ -47,7 +47,7 @@ const Footer1 = () => {
                     <i className="bi bi-instagram"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
 
@@ -81,16 +81,16 @@ const Footer1 = () => {
 
               <ul className="menu-list">
                 <li>
-                  <Link href="/about">About Us </Link>
+                  <Link href="#about">About Us </Link>
                 </li>
                 <li>
-                  <Link href="/service">Our Services</Link>
+                  <Link href="#services">Our Services</Link>
                 </li>
                 <li>
-                  <Link href="/blog">Insights</Link>
+                  <Link href="/blog">Blogs</Link>
                 </li>
                 <li>
-                  <Link href="/portfolio">Project</Link>
+                  <Link href="/portfolio">Case Studies</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>
